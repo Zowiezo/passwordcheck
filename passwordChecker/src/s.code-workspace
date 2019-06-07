@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "/home/zoe/Desktop/passwordChecker/lib"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "src",
+		"git.ignoreLimitWarning": true
+	}
+}
