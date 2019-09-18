@@ -1,19 +1,13 @@
-/* --- password is valid --- */
-
 function password_is_valid(password) {
     let validPassword = /^(?=.\d)(?=.[a-z])(?=.*[A-Z])[0-9a-zA-Z]{9,}$/
     let passwordChecker = validPassword.test(password);
 
         try {
-        if (passwordChecker == false) throw "password must at least have 1 number, 1 lowercase, 1 uppercase and more than 8 characters";
+        if (passwordChecker = false) throw "password must at least have 1 number, 1 lowercase, 1 uppercase and more than 8 characters";
         } catch (error) {
-        console.log("Error : " + error)
-    };
-
+    }
         return passwordChecker;
-};
-
-/* --- password is ok --- */
+}
 
 function password_is_ok(password) {
     let numberLookat = /[0-9]/g;
@@ -30,12 +24,11 @@ function password_is_ok(password) {
             if (lookatNumber || lookatUppercase || lookatLowercase) {
                 console.log("Correct")
             } else {
-                console.log("Error, password missing a number and or lower case letter and or uppercase letter, check password")
+                console.log("Error, password missing a number and or lower case letter and or uppercase letter, check password");
             }
             } else {
-        console.log("Error, password does not have enough characters, check password")
+        console.log("Error, password does not have enough characters, check password");
             }
-            return (password)
-};
+            return (password);
+}
 
-console.log(password_is_ok(""));
