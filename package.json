@@ -1,0 +1,25 @@
+{
+  "name": "passwordcheck",
+  "version": "1.0.0",
+  "description": "This contains Password is ok and Password is vaild.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zowiezo/passwordcheck.git"
+  },
+  "author": "Zoleka Kubheka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zowiezo/passwordcheck/issues"
+  },
+  "homepage": "https://github.com/Zowiezo/passwordcheck#readme",
+  "dependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
