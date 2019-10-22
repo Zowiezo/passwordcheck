@@ -1,9 +1,11 @@
+
+
 function password_is_valid(password) {
     let validPassword = /^(?=.\d)(?=.[a-z])(?=.*[A-Z])[0-9a-zA-Z]{9,}$/;
     let passwordChecker = validPassword.test(password);
-
+    
         try {
-        if (passwordChecker == false) throw "password must at least have 1 number, 1 lowercase, 1 uppercase and more than 8 characters";
+        if (passwordChecker == false) throw new Error ("password must at least have 1 number, 1 lowercase, 1 uppercase and more than 8 characters");
         } catch (error) {
     }
         return passwordChecker;

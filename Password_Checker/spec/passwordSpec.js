@@ -25,11 +25,11 @@ describe('is  password valid', () => {
         expect(validPassword ).toBeTruthy;
         ;
     });
-    it('should check if the password is vaild and throw an error if it is not valid', () => {
+    it('should throw an error if it is not valid', () => {
         let validPassword = password_is_valid('password');
-        expect(validPassword).toThrow(new Error('Password is incorrect'));
+        expect( () => {password_is_valid('password');}).toThrowError; 
+        
     });
-
 });
 
 describe('is password ok', () => {
