@@ -6,7 +6,7 @@ Tested using Jasmine standalone.
 
 Open SpecRunner.html and run the included specs. 
 Both the source files and their respective specs are linked
-in the <head> of the SpecRunner.html.
+in the SpecRunner.html flie
 
 To start using Jasmine, 
 - Replace the source/spec files with your own.
